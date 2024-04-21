@@ -1,0 +1,171 @@
+
+#header {
+	background-color: #F3A000;
+	width: 100%;
+}
+
+#uno{
+	float:right;
+	
+	background-color: #FFEED5;
+	-webkit-transform: translate(-10%,-250%);
+	-webkit-border-radius:10px;
+	 font-family: sans-serif;
+	  color: #000;
+	  font-size: 14px;
+	  background: #FFEED5;
+	  width: 7%;
+
+}
+#dos{
+	float:right;
+	text-align:right;
+	background-color: #FFEED5;
+	-webkit-transform: translate(-10%,-250%);
+	-webkit-border-radius:10px
+}
+
+#capaFlotante {
+    position: absolute;
+    top: 200;
+    right: 0;
+    z-index: 1000;
+    cursor:pointer;
+}
+#nav{
+-webkit-transform: translate(19%,0%);
+}
+
+#fotos{
+-webkit-transform: translate(-0%,0%);
+}
+#asider{
+	float: right;
+	-webkit-transform: translate(0%,0%);	
+}
+#tabla2{
+-webkit-transform: translate(0%,30%);
+border-style: solid;
+border-bottom:80%
+
+}
+
+#formulario{
+border: 1px solid;
+
+}
+
+h3{
+-webkit-transform: translate(0%,30%);
+text-align:center;
+
+}
+
+#viajeros{
+cursor:pointer;
+width:170px;
+	padding:8px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+	-webkit-transform: translate(30%,0%);
+	
+
+}
+#viajeros:hover{
+background-color:#686868;
+color:#FFF;
+width:173px;
+transition: width, background-color, 0.5s;
+transition: color 0.4s;
+
+}
+
+#checkin{
+	margin: 15px;
+	padding: 15px;
+	-webkit-border-radius:10px
+	border:1px;
+}
+
+#entrada{
+cursor:pointer;
+
+}
+
+
+#entrada:hover{
+background-color:#E8E8E8;
+transition: background-color, 0.1s;
+
+}
+
+#checkout{
+margin: 15px;
+ padding: 15px;
+ -webkit-border-radius:10px
+ border:1px;
+
+}
+
+#salida{
+cursor:pointer;
+
+}
+
+
+#salida:hover{
+background-color:#E8E8E8;
+transition: background-color, 0.1s;
+
+}
+
+
+#boton{
+border:none
+
+}
+#reservar{
+  -webkit-border-radius: 30;
+  -webkit-transform: translate(45%,0%);
+  border-radius: 30px;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 20px 30px;
+  background: #F3A000;
+  border: solid #000000 2px;
+  text-decoration: none;
+  width: 100%;
+  cursor:pointer
+
+}
+
+#reservar:hover {
+background-color: #AA6F00;
+width: 103%;
+transition: width, background-color, 0.5s;
+
+
+}
+#alojamiento{
+font-size: 150%;
+
+}
+#footer{
+
+    background-color: F3A000;
+    width: 100%;
+    height: 125px;
+}
+
+
+.gallery{
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: stretch;
+}
+
