@@ -1,34 +1,49 @@
 <html lang="es">
 	<head>
 		<link rel="stylesheet" href="../css/tp.css" type="text/css">
+		<script src="../Javascript/tp.js"></script>
 	</head>
 	<body>
 		<div id="header"> </br>
 		<center>	<img width= "180px" src= "../images/logovivacosta.png"> </center>
-			<button id= "uno"> Iniciar sesion </button>
-			<button id="dos"> Registrate </button> 
-			
+			<div id="botonera">
+
+			</div>
 		</div>
 		<div id="main">
+			
+			<div id="buscador">
+			<form method="get" action="resbusq.html">
+				<search>
+					
+						<input type="search" value= "" id= "search" name="search" placeholder="Elija su destino...">
+					
+				</search>
+				<button type="submit" id="buscadorlupa">
+					<img id="lupa" width="60px" src="../images/lupa.png">
+				</button>
+			</form>
+			</div>
+			
 			<h2 align=center>Alojamientos</h2>
-			<div class="galllery">
+			<div class="gallery">
 				<div id="asidel">
-					<a href="../html/departamento estilo mediterraneo en Pinamar.html">	<img width= "300px" src="../images/dep1pina.png"></a>
+					<a href="../html/dep1pina.html"><img id="dep1pina" width= "300px" src="../images/dep1pina.png"></a>
 				</div>
 				<div id= "asidel">
-					<a href="../html/dep2pina.html"> <img width= "300px" align= "center" src="../images/depn2pina.png"></a>
+					<a href="../html/dep2pina.html"> <img id="dep2pina" width= "300px" align= "center" src="../images/depn2pina.png"></a>
 				</div>
 				<div id="asidel">
-					<a href="../html/dep3pina.html"><img width= "300px" src="../images/dep3pina.png"></a>
+					<a href="../html/dep3pina.html"><img id="dep3pina" width= "300px" src="../images/dep3pina.png"></a>
 				</div>
 				<div id="asidel">
-					<a href="../html/dep1mdq.html"><img width= "300px" src="../images/dep1mdq.png"></a>
+					<a href="../html/dep1mdq.html"><img id="dep1mdq" width= "300px" src="../images/dep1mdq.png"></a>
 				</div>
 				<div id="asidel">
-					<a href="../html/dep2mdq.html"><img width= "290px" src="../images/dep2mdq.png"></a>
+					<a href="../html/dep2mdq.html"><img id="dep2mdq" width= "290px" src="../images/dep2mdq.png"></a>
 				</div>
 				<div id="asidel">
-					<a href="../html/dep3mdq.html"><img width= "300px" src="../images/dep3mdq.png"></a>
+					<a href="../html/dep3mdq.html"><img id="dep3mdq" width= "300px" src="../images/dep3mdq.png"></a>
 				</div>
 			</div>
 		</div>

@@ -1,0 +1,31 @@
+<html lang="es">
+	<head> 
+        <script src="../Javascript/copia de iniciosesion.js"></script>
+        <link rel="stylesheet" href="../css/iniciosesion.css">
+    </head>
+    <div id="header"> </br>
+		<img id="volveratras" onclick="history.back()" width= "60px"src="../images/botonatras.png">
+
+		</div>
+	<body background="../images/fondoiniciosesion.jpeg" style="background-repeat: no-repeat; background-size: cover">
+
+        <form>
+            <h2> INICIAR SESION </h2>
+            
+            <label for="username"> Nombre de usuario </label>
+            <input type="text" id="username">
+
+            <label for="password"> Contraseña </label>
+            <input type="password" id="password">
+
+            <div id="errorsesion" class="error">
+               
+            </div>
+
+            <input type="button" class="btn-1" value="Iniciar" onclick="loguearse();">        
+            </form>
+
+
+			
+	</body>
+</html>

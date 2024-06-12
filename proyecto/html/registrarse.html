@@ -1,0 +1,46 @@
+<html lang="es">
+	<head> 
+        <script src="../Javascript/registrarse.js"></script>
+            <!--Incluir la librería jQuery-->
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+ 
+<!--Incluir el plugin jQuery Validate-->
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+ <script src="../Javascript/iniciosesion.js"></script>
+        <link rel="stylesheet" href="../css/registrarse.css">
+	<div id="header"> </br>
+		<img id="volveratras" onclick="history.back()" width= "60px"src="../images/botonatras.png">
+		
+		</div>
+    </head>
+	
+
+	<body background="../images/fondoiniciosesion.jpeg" style="background-repeat: no-repeat; background-size: cover">
+
+        <form>
+            <h2> REGISTRARSE </h2>
+            
+            <label for="nomape"> Nombre y apellido </label>
+            <input type="text" id="nomape">
+
+            <label for="username"> Nombre de usuario</label>
+            <input type="text" id="username">
+
+            <label for="mail"> Mail </label>
+            <input type="email" id="mail">
+
+            <label for="password"> Elegir contraseña </label>
+            <input type="password" id="password">
+
+            <label for="password2"> Confirmar contraseña </label>
+            <input type="password" id="password2">
+             <div id="errorregistrarse">
+         
+         	</div>
+            <input type="button" class="btn-1" value="Registrarse" onclick="registrarse()">
+        </form>
+
+
+			
+	</body>
+</html>

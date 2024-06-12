@@ -1,9 +1,20 @@
-
+*{
+margin: 0;
+padding: 0;
+}
 #header {
 background-color: #F3A000;
 width: 100%;
 
 }
+
+#saludo{
+position: absolute;
+top: 35;
+right: 120;
+
+}
+
 #main{
 margin-left:50;
 background-color: #FFF;
@@ -13,13 +24,122 @@ text-align:center;
 position:relative;
 }
 
+#buscador{
+border:solid 1px;
+width: 50%;
+height:5%;
+-webkit-border-radius:50px;
+padding: 14px 24px;
+-webkit-transform:translate(40%,0%)
+
+
+}
+
+#search{
+border:none;
+width: 80%;
+height:100%;
+-webkit-border-radius:50px;
+padding: 14px 24px;
+-webkit-transform:translate(-10%,-0%);
+
+}
+
+#buscadorlupa{
+width:60px;
+height:60px;
+-webkit-border-radius:30px;
+-webkit-transform:translate(450%,-90%);
+
+}
+
+#lupa{
+-webkit-border-radius: 30px;
+-webkit-transform:translate(-3%,-3%);
+
+}
+
 #uno{
 	float:right;
 	text-align:right;
-	background-color: #FFEED5;
-	-webkit-transform: translate(-10%,-250%);
-	-webkit-border-radius:10px
-	
+	border: none;
+	-webkit-transform: translate(-10%,-180%);
+	-webkit-border-radius:10px;
+
+  align-items: center;
+  background-color: #686868;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #FFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family:  sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  margin: 5px;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+#uno:hover{ 
+  background-color: #494949;
+  color: #ffffff;
+}
+
+#uno:active {
+  background: #494949;
+  color: rgb(255, 255, 255, .7);
+}
+
+#uno:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+
+
+#dep1pina{
+-webkit-border-radius:20px;
+
+}
+
+#dep2pina{
+-webkit-border-radius:20px;
+
+}
+
+#dep3pina{
+-webkit-border-radius:20px;
+
+}
+
+#dep1mdq{
+-webkit-border-radius:20px;
+
+}
+
+#dep2mdq{
+-webkit-border-radius:20px;
+
+}
+
+#dep3mdq{
+-webkit-border-radius:20px;
 
 }
 
@@ -47,6 +167,65 @@ flex-direction:column;
 #asider{
 	float:right;
 }
+
+#dep1pina:hover{
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+#dep3mdq:hover{
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+transition: box-shadow, 0.5s;
+
+}
+
+}
+
+#dep2pina:hover{
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+#dep3mdq:hover{
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+transition: box-shadow, 0.5s;
+
+}
+
+}
+
+#dep3pina:hover{
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+#dep3mdq:hover{
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+transition: box-shadow, 0.5s;
+
+}
+
+}
+
+#dep1mdq:hover{
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+#dep3mdq:hover{
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+transition: box-shadow, 0.5s;
+
+}
+
+}
+
+#dep2mdq:hover{
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+#dep3mdq:hover{
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+transition: box-shadow, 0.5s;
+
+}
+
+}
+
+#dep3mdq:hover{
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+transition: box-shadow, 0.5s;
+
+}
+
+
+
 #footer{
 
     background-color: F3A000;
@@ -57,16 +236,15 @@ p{
 -webkit-transform: translate(1%,5%);
 
 }
-}
-#footer{
 
+#footer{
     background-color: F3A000;
     width: 100%;
-    height: 125px;
+    height: 135px;
 }
 
 
-.galllery{
+.gallery{
 	display: flex;
     /* background: black; */
     flex-wrap: wrap;

@@ -1,0 +1,103 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#volveratras{
+ position: absolute;
+    top: 30;
+    left: 20;
+    z-index: 1000;
+    cursor:pointer;
+
+
+}
+
+#volveratras:active{
+  transform: translateY(4px);
+
+}
+
+
+form {
+    padding: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    width: 600px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: grey;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 25px;
+
+}
+
+label,p  {
+    font-size: 17px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 17px 11px;
+    border: 1px solid orangered;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    background-color: white;
+    outline: none;
+    color: orangered;
+    font-size: 16px;
+    
+}
+#registrarse{
+    padding: 17px 11px;
+    border: 1px solid orangered;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    background-color: orange;
+    outline: none;
+    color: orangered;
+    font-size: 16px;
+
+}
+
+.btn-1{
+    background-color: orangered;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background-color: orangered;
+
+}
+
+#errorregistrarse{
+color: white;
+font-weight: bold;
+
+}

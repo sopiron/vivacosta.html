@@ -1,0 +1,36 @@
+<html lang="es">
+	<head> 
+        <!--Incluir la librería jQuery-->
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+ 
+<!--Incluir el plugin jQuery Validate-->
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+ <script src="../Javascript/iniciosesion.js"></script>
+        <link rel="stylesheet" href="../css/iniciosesion.css">
+    </head>
+    <div id="header"> </br>
+		<img id="volveratras" onclick="history.back()" width= "60px"src="../images/botonatras.png">
+
+		</div>
+	<body background="../images/fondoiniciosesion.jpeg" style="background-repeat: no-repeat; background-size: cover">
+
+        <form id="miform">
+            <h2> INICIAR SESION </h2>
+            
+            <label for="username"> Nombre de usuario </label>
+            <input type="text" id="username">
+
+            <label for="password"> Contraseña </label>
+            <input type="password" id="password">
+
+            <div id="errorsesion" class="error">
+               
+            </div>
+
+            <button type="submit" id="boton"class="btn-1"> iniciar</button>       
+            </form>
+
+
+			
+	</body>
+</html>
